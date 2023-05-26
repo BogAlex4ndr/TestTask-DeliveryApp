@@ -1,4 +1,4 @@
 # TestTask-DeliveryApp
 
-to start client 'npx vite' or 'npm run dev'
-to start server 'npm run dev'
+to start client <b>'npx vite</b>' or <b>'npm run dev'</b>
+to start server <b>'npm run dev'</b>
