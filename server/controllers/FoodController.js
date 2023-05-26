@@ -1,5 +1,5 @@
 import OrderSchema from '../models/OrderSchema.js';
-import foodSchema from '../models/foodSchema.js';
+import foodSchema from '../models/FoodSchema.js';
 
 export const create = async (req, res) => {
   try {
