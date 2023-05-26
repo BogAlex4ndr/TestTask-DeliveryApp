@@ -1,0 +1,37 @@
+.shopsWrapper {
+  display: flex;
+  height: 100%;
+  padding: 40px;
+  background-color: rgb(43, 116, 138);
+  font-size: medium;
+  border-radius: 20%;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+    @media (max-width: 600px) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      overflow: scroll;
+      padding: 10px;
+    }
+    li {
+      font-size: 1.5rem;
+    }
+  }
+}
+.shopIitem {
+  cursor: pointer;
+  &:hover {
+    color: rgb(12, 221, 12);
+  }
+}
+
+.activeShopItem {
+  color: rgb(1, 204, 11);
+  text-shadow: 2px 2px 6px rgb(63, 6, 6);
+}
