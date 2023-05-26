@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import { create, getAll, getOne, submitOrder } from './controllers/FoodController.js';
 
-const PORT = 'https://test-task-delivery-app.onrender.com';
+const PORT = 8080;
 const app = express();
 app.use(express.json());
 app.use(cors());
