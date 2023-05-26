@@ -28,7 +28,7 @@ const Cart = () => {
     e.preventDefault();
     onClickClear();
     try {
-      const res = await axios.post(`http://localhost:3000/order`, {
+      const res = await axios.post(`https://test-task-delivery-app.onrender.com/order`, {
         name: name,
         email: email,
         phone: phone,

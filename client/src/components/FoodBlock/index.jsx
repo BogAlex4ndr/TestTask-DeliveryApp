@@ -11,7 +11,7 @@ const FoodBlock = () => {
   useEffect(() => {
     const fetchFood = async () => {
       try {
-        const res = await axios.get(`http://localhost:3000/foodlist`);
+        const res = await axios.get(`https://test-task-delivery-app.onrender.com/foodlist`);
         setItems(res.data);
       } catch (error) {
         console.log(error);
